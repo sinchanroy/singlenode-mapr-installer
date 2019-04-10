@@ -169,20 +169,3 @@ echo -e "enabled=1 \ngpgcheck=1 \nprotect=1 " >> /etc/yum/repos.d/maprtech.repo
 
 
 
-
-#cat > /etc/yum/repos.d/maprtech.repo <<- "EOF"
-#[maprtech]
-#name=MapR Technologies
-#baseurl=http://package.mapr.com/releases/$version/redhat/
-#enabled=1
-#gpgcheck=1
-#protect=1
-#
-#[maprecosystem]
-#name=MapR Technologies
-#baseurl=http://package.mapr.com/releases/MEP/MEP-$mep/redhat
-#enabled=1
-#gpgcheck=1
-#protect=1
-#EOF
-
